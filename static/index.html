@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel de Odds — LoL / Valorant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanline"></div>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">◆</span>
+    <div>
+      <h1>PAINEL<span class="accent">.ODDS</span></h1>
+      <p class="tagline">Histórico real de partidas × linhas do mercado — LoL / Valorant</p>
+    </div>
+  </div>
+  <div class="source-tag" id="source-tag">fonte de dados: <strong>Oracle's Elixir</strong> (arquivo local)</div>
+</header>
+
+<main>
+
+  <section id="setup-needed" class="panel setup hidden">
+    <div class="panel-head"><h2>Configuração necessária — arquivo de dados não encontrado</h2></div>
+    <p class="hint">
+      Esse painel lê o histórico de partidas de um arquivo CSV baixado da
+      <a href="https://oracleselixir.com/tools/downloads" target="_blank" rel="noopener">Oracle's Elixir</a>
+      — assim ele funciona 100% local, sem depender de internet nem de limites de requisição.
+    </p>
+    <ol class="setup-steps">
+      <li>Acesse <a href="https://oracleselixir.com/tools/downloads" target="_blank" rel="noopener">oracleselixir.com/tools/downloads</a></li>
+      <li>Clique no link azul <strong>"Google Drive"</strong> no fim da página</li>
+      <li>Baixe o CSV do ano que você quer analisar (ex: 2026)</li>
+      <li>Salve o arquivo na pasta do app como <code>data/oracles_elixir.csv</code></li>
+      <li>Clique no botão abaixo (não precisa reiniciar o app)</li>
+    </ol>
+    <button id="check-csv-btn" class="cta">JÁ SALVEI O ARQUIVO — VERIFICAR</button>
+    <p class="hint" id="setup-status"></p>
+  </section>
+
+  <div id="app-content" class="hidden">
+
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="confronto">LoL — Confronto (2 times)</button>
+    <button class="tab-btn" data-tab="campeonato">LoL — Análise de Campeonato</button>
+    <button class="tab-btn" data-tab="aovivo">LoL — Ao Vivo</button>
+    <button class="tab-btn" data-tab="valorant">Valorant — Confronto (2 times)</button>
+  </nav>
+
+  <section id="tab-confronto" class="tab-content active">
+
+  <section class="panel setup">
+    <div class="panel-head"><span class="idx">01</span><h2>Escolha o campeonato</h2></div>
+
+    <div class="row-config">
+      <label>Ano
+        <select id="year"></select>
+      </label>
+      <label>Campeonato
+        <select id="tournament" disabled><option value="">carregando…</option></select>
+      </label>
+    </div>
+    <p class="hint" id="tournament-hint">Selecione o ano pra carregar a lista de campeonatos.</p>
+  </section>
+
+  <section class="panel setup">
+    <div class="panel-head"><span class="idx">02</span><h2>Confronto</h2></div>
+
+    <div class="teams-grid">
+      <div class="team-input">
+        <label>Time 1</label>
+        <select id="team1" disabled><option value="">selecione o campeonato primeiro</option></select>
+      </div>
+      <div class="vs">VS</div>
+      <div class="team-input">
+        <label>Time 2</label>
+        <select id="team2" disabled><option value="">selecione o campeonato primeiro</option></select>
+      </div>
+    </div>
+
+    <div class="row-config">
+      <label>Jogos recentes de cada time a considerar no histórico
+        <select id="limit">
+          <option value="10">Últimos 10</option>
+          <option value="15">Últimos 15</option>
+          <option value="20" selected>Últimos 20</option>
+          <option value="30">Últimos 30</option>
+          <option value="40">Últimos 40</option>
+        </select>
+      </label>
+    </div>
+  </section>
+
+  <button id="analyze-btn" class="cta" disabled>COMPARAR TIMES</button>
+
+  <section id="results" class="results hidden"></section>
+
+  </section><!-- /tab-confronto -->
+
+  <section id="tab-campeonato" class="tab-content">
+
+  <section class="panel setup">
+    <div class="panel-head"><span class="idx">01</span><h2>Escolha o campeonato</h2></div>
+
+    <div class="row-config">
+      <label>Ano
+        <select id="c-year"></select>
+      </label>
+      <label>Campeonato
+        <select id="c-tournament" disabled><option value="">carregando…</option></select>
+      </label>
+    </div>
+    <p class="hint" id="c-tournament-hint">Selecione o ano pra carregar a lista de campeonatos.</p>
+  </section>
+
+  <div id="tournament-table-wrap" class="results hidden"></div>
+
+  </section><!-- /tab-campeonato -->
+
+  <section id="tab-aovivo" class="tab-content">
+
+  <section class="panel setup">
+    <div class="panel-head"><h2>Partidas de LoL ao vivo agora</h2></div>
+    <p class="hint">
+      Busca direto na API pública que o lolesports.com usa — precisa de internet aqui (diferente do resto do
+      site, que é 100% local). Se um jogo não aparecer, é porque não tem partida oficial rolando nesse
+      momento, ou a API mudou de formato do lado deles.
+    </p>
+    <div class="row-config">
+      <label>Partida ao vivo
+        <select id="al-match-select" disabled><option value="">carregando…</option></select>
+      </label>
+    </div>
+    <button id="al-refresh-btn" class="cta">ATUALIZAR LISTA DE JOGOS AO VIVO</button>
+    <p class="hint" id="al-status"></p>
+  </section>
+
+  <div id="al-results" class="hidden"></div>
+
+  </section><!-- /tab-aovivo -->
+
+  <section id="tab-valorant" class="tab-content">
+
+  <section class="panel setup hidden" id="v-setup-needed">
+    <div class="panel-head"><h2>Dados de Valorant não encontrados</h2></div>
+    <p class="hint">
+      Essa aba lê o dataset "Valorant Champion Tour Data" do Kaggle. Baixe em
+      <a href="https://www.kaggle.com/datasets/ryanluong1/valorant-champion-tour-2021-2023-data" target="_blank" rel="noopener">kaggle.com/datasets/ryanluong1/valorant-champion-tour-2021-2023-data</a>
+      (precisa de conta gratuita), extraia o zip, e coloque as pastas <code>vct_2025</code>, <code>vct_2026</code> etc.
+      dentro de <code>data/valorant/</code> (assim: <code>data/valorant/vct_2026/matches/overview.csv</code>).
+    </p>
+    <button id="v-check-btn" class="cta">JÁ COLOQUEI OS ARQUIVOS — VERIFICAR</button>
+    <p class="hint" id="v-setup-status"></p>
+  </section>
+
+  <div id="v-app-content" class="hidden">
+
+  <section class="panel setup">
+    <div class="panel-head"><span class="idx">01</span><h2>Escolha o campeonato</h2></div>
+    <div class="row-config">
+      <label>Ano
+        <select id="v-year"></select>
+      </label>
+      <label>Campeonato
+        <select id="v-tournament" disabled><option value="">carregando…</option></select>
+      </label>
+    </div>
+    <p class="hint" id="v-tournament-hint">Selecione o ano pra carregar a lista de campeonatos.</p>
+  </section>
+
+  <section class="panel setup">
+    <div class="panel-head"><span class="idx">02</span><h2>Confronto</h2></div>
+    <div class="teams-grid">
+      <div class="team-input">
+        <label>Time 1</label>
+        <select id="v-team1" disabled><option value="">selecione o campeonato primeiro</option></select>
+      </div>
+      <div class="vs">VS</div>
+      <div class="team-input">
+        <label>Time 2</label>
+        <select id="v-team2" disabled><option value="">selecione o campeonato primeiro</option></select>
+      </div>
+    </div>
+    <div class="row-config">
+      <label>Mapas recentes de cada time a considerar
+        <select id="v-limit">
+          <option value="10">Últimos 10</option>
+          <option value="15">Últimos 15</option>
+          <option value="20" selected>Últimos 20</option>
+          <option value="30">Últimos 30</option>
+        </select>
+      </label>
+    </div>
+  </section>
+
+  <button id="v-analyze-btn" class="cta" disabled>COMPARAR TIMES</button>
+
+  <section id="v-results" class="results hidden">
+    <div class="market-tabs-bar">
+      <button type="button" class="market-tab-btn active" data-vtab="winrate">Win Rate</button>
+      <button type="button" class="market-tab-btn" data-vtab="mapas">Mapas</button>
+    </div>
+    <div id="v-winrate-wrap"></div>
+    <div id="v-mapas-wrap" class="hidden"></div>
+  </section>
+
+  </div><!-- /v-app-content -->
+
+  <section class="panel setup" style="margin-top:2rem;">
+    <div class="panel-head"><h2>Stats ao vivo (importado de arquivo)</h2></div>
+    <p class="hint">
+      Lê direto de um arquivo que você mesmo atualiza (ex: exportado do vlr.gg) em
+      <code>data/valorant_live/</code>. Toda vez que você substituir o arquivo por uma versão mais nova, os dados
+      já refletem automaticamente — não precisa reiniciar o app. Não tem placar/vitória por partida nesse
+      formato (só a média de cada jogador no campeonato), então aqui só dá pra ver a tabela de jogadores por
+      mapa, sem Win Rate. A coluna "Agentes" mostra só as porcentagens de pick, sem o nome de cada agente
+      (isso se perde ao copiar a tabela do site de origem).
+    </p>
+
+    <div class="row-config">
+      <label>Campeonato
+        <select id="vl-campeonato-cmp"><option value="">selecione…</option></select>
+      </label>
+    </div>
+    <div class="teams-grid">
+      <div class="team-input">
+        <label>Time 1</label>
+        <select id="vl-team1" disabled><option value="">selecione o campeonato primeiro</option></select>
+      </div>
+      <div class="vs">VS</div>
+      <div class="team-input">
+        <label>Time 2</label>
+        <select id="vl-team2" disabled><option value="">selecione o campeonato primeiro</option></select>
+      </div>
+    </div>
+    <button id="vl-compare-btn" class="cta" disabled>VER JOGADORES POR MAPA</button>
+    <div id="vl-compare-wrap" class="hidden"></div>
+
+    <hr style="border-color: var(--panel-border); margin: 2rem 0;">
+
+    <p class="tt-section-label">Ou veja a tabela completa (todos os times/jogadores):</p>
+    <div class="row-config">
+      <label>Campeonato
+        <select id="vl-campeonato"><option value="">todos</option></select>
+      </label>
+      <label>Mapa
+        <select id="vl-mapa"><option value="">todos</option></select>
+      </label>
+    </div>
+    <div id="vl-wrap"></div>
+  </section>
+
+  </section><!-- /tab-valorant -->
+
+  </div><!-- /app-content -->
+
+  <footer>
+    <p>Ferramenta de apoio estatístico baseada em dados históricos públicos. Não é garantia de resultado nem recomendação financeira — aposte com responsabilidade.</p>
+    <p><a href="/api/csv-status" target="_blank" rel="noopener">ver diagnóstico dos dados carregados</a> (jogos, campeonatos, ligas encontradas no arquivo, etc.)</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

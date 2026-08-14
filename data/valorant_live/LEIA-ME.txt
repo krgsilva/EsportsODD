@@ -1,0 +1,24 @@
+Esta pasta é pra estatísticas "ao vivo" que você mesmo atualiza — por
+exemplo, exportando/copiando uma tabela de stats do vlr.gg periodicamente.
+
+O app reconhece automaticamente 2 formatos de arquivo (pelo número de
+colunas do cabeçalho). Pode colocar quantos arquivos quiser aqui, de
+qualquer um dos dois formatos, que ele soma tudo.
+
+FORMATO A (14 colunas):
+Status_Evento,Campeonato,Periodo_Campeonato,Data_Partida,Mapa,Jogador,
+Time,Agente,Rating,ACS,Kills,Mortes,Assistencias,ADR
+
+FORMATO B (8 colunas):
+Campeonato,Data_Partida,Mapa,Jogador,Time,Personagem,Kills,Mortes
+
+Sim, os nomes das colunas nesses arquivos não batem com o que realmente
+tem dentro delas (efeito colateral de como as tabelas são copiadas do
+site de origem — células com várias linhas empurram tudo). O app já
+corrige isso sozinho ao ler o arquivo, comparando a faixa de valores de
+cada coluna com o que é esperado em Valorant (rating 0-3, ACS 0-400
+etc). Se quiser conferir ou ajustar a lógica, está em
+valorant_live_data.py.
+
+Pra atualizar: é só substituir/adicionar o arquivo. O app detecta a
+mudança sozinho, sem precisar reiniciar.

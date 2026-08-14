@@ -1,0 +1,22 @@
+Esta pasta guarda o arquivo de dados que o painel usa.
+
+COMO OBTER O ARQUIVO:
+
+1. Acesse https://oracleselixir.com/tools/downloads
+2. Clique no link azul "Google Drive" no fim da página
+3. Baixe o CSV do ano que você quer analisar (ex: 2026) — é gratuito,
+   mantido pela comunidade, atualizado uma vez por dia
+4. Salve o arquivo AQUI NESTA PASTA com o nome:
+   oracles_elixir.csv
+
+   (Se quiser ter mais de um ano disponível ao mesmo tempo, pode salvar
+   vários arquivos aqui, desde que todos comecem com "oracles_elixir",
+   por exemplo: oracles_elixir_2025.csv, oracles_elixir_2026.csv — o
+   painel lê todos automaticamente.)
+
+5. No app (http://localhost:5000), clique em "JÁ SALVEI O ARQUIVO —
+   VERIFICAR". Não precisa reiniciar o servidor.
+
+Pra atualizar os dados mais tarde (o arquivo da Oracle's Elixir é
+atualizado uma vez por dia), é só baixar de novo e substituir o arquivo
+aqui — o painel detecta sozinho que o arquivo mudou.

@@ -1,0 +1,24 @@
+Esta pasta guarda os dados de Valorant (VCT), no mesmo espírito da
+Oracle's Elixir pro LoL: um dataset baixado uma vez, sem depender de
+internet nem de scraping.
+
+COMO OBTER:
+
+1. Acesse https://www.kaggle.com/datasets/ryanluong1/valorant-champion-tour-2021-2023-data
+   (precisa de conta gratuita no Kaggle pra baixar)
+2. Baixe o dataset completo (o botão de download baixa um .zip com tudo)
+3. Extraia o .zip
+4. Dentro dele tem pastas tipo vct_2021, vct_2022, ..., vct_2026 — copie
+   as pastas dos anos que você quer analisar pra DENTRO desta pasta
+   (data/valorant/), assim:
+
+   data/valorant/vct_2026/matches/overview.csv
+   data/valorant/vct_2026/matches/maps_scores.csv
+   data/valorant/vct_2026/ids/tournaments_stages_matches_games_ids.csv
+   (o resto dos arquivos de cada pasta pode ficar também, não atrapalha)
+
+5. No app, na aba Valorant, clique em "JÁ COLOQUEI OS ARQUIVOS — VERIFICAR"
+
+Cada ano (vct_2021 até vct_2026) é uma pasta separada e relativamente
+grande (dezenas a centenas de MB) — recomendo colocar só os anos que você
+realmente vai analisar, pra não deixar o app lento pra carregar.

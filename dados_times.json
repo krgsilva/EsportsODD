@@ -1,0 +1,805 @@
+{
+    "ultima_atualizacao": "2026-08-08",
+    "times": [
+        {
+            "jogador": "swagzor\nNOVA",
+            "agente": "54%\n\n\n\n38%\n\n\n\n8%",
+            "rating": "13",
+            "acs": "283",
+            "kills": "1.42",
+            "mortes": "275"
+        },
+        {
+            "jogador": "slowly\nTYL",
+            "agente": "21%\n\n\n\n21%\n\n\n\n21%\n\n+3",
+            "rating": "14",
+            "acs": "296",
+            "kills": "1.40",
+            "mortes": "247"
+        },
+        {
+            "jogador": "Asuna\n100T",
+            "agente": "100%",
+            "rating": "10",
+            "acs": "225",
+            "kills": "1.33",
+            "mortes": "262"
+        },
+        {
+            "jogador": "vo0kashu\nDRG",
+            "agente": "77%\n\n\n\n18%\n\n\n\n5%",
+            "rating": "22",
+            "acs": "494",
+            "kills": "1.33",
+            "mortes": "242"
+        },
+        {
+            "jogador": "marteen\nM8",
+            "agente": "83%\n\n\n\n17%",
+            "rating": "12",
+            "acs": "257",
+            "kills": "1.33",
+            "mortes": "265"
+        },
+        {
+            "jogador": "Verno\nMIBR",
+            "agente": "100%",
+            "rating": "9",
+            "acs": "185",
+            "kills": "1.29",
+            "mortes": "230"
+        },
+        {
+            "jogador": "lukxo\nLOUD",
+            "agente": "60%\n\n\n\n20%\n\n\n\n20%",
+            "rating": "10",
+            "acs": "214",
+            "kills": "1.26",
+            "mortes": "257"
+        },
+        {
+            "jogador": "splash\nTYL",
+            "agente": "36%\n\n\n\n36%\n\n\n\n29%",
+            "rating": "14",
+            "acs": "296",
+            "kills": "1.25",
+            "mortes": "263"
+        },
+        {
+            "jogador": "johnqt\nSEN",
+            "agente": "38%\n\n\n\n25%\n\n\n\n25%\n\n+1",
+            "rating": "8",
+            "acs": "174",
+            "kills": "1.22",
+            "mortes": "207"
+        },
+        {
+            "jogador": "something\nPRX",
+            "agente": "41%\n\n\n\n23%\n\n\n\n14%\n\n+4",
+            "rating": "22",
+            "acs": "477",
+            "kills": "1.22",
+            "mortes": "236"
+        },
+        {
+            "jogador": "GuanG\nNOVA",
+            "agente": "54%\n\n\n\n23%\n\n\n\n23%",
+            "rating": "13",
+            "acs": "283",
+            "kills": "1.22",
+            "mortes": "212"
+        },
+        {
+            "jogador": "Foxy9\nVL",
+            "agente": "55%\n\n\n\n36%\n\n\n\n9%",
+            "rating": "11",
+            "acs": "245",
+            "kills": "1.21",
+            "mortes": "244"
+        },
+        {
+            "jogador": "primmie\nFS",
+            "agente": "35%\n\n\n\n24%\n\n\n\n18%\n\n+3",
+            "rating": "17",
+            "acs": "362",
+            "kills": "1.21",
+            "mortes": "238"
+        },
+        {
+            "jogador": "ra1ny\nTEC",
+            "agente": "89%\n\n\n\n11%",
+            "rating": "9",
+            "acs": "205",
+            "kills": "1.21",
+            "mortes": "228"
+        },
+        {
+            "jogador": "invy\nPRX",
+            "agente": "50%\n\n\n\n23%\n\n\n\n14%\n\n+2",
+            "rating": "22",
+            "acs": "477",
+            "kills": "1.20",
+            "mortes": "213"
+        },
+        {
+            "jogador": "basic\nFUR",
+            "agente": "25%\n\n\n\n25%\n\n\n\n17%\n\n+2",
+            "rating": "12",
+            "acs": "263",
+            "kills": "1.20",
+            "mortes": "216"
+        },
+        {
+            "jogador": "Monyet\nRRQ",
+            "agente": "60%\n\n\n\n30%\n\n\n\n10%",
+            "rating": "10",
+            "acs": "214",
+            "kills": "1.19",
+            "mortes": "228"
+        },
+        {
+            "jogador": "coconut\nFPX",
+            "agente": "53%\n\n\n\n35%\n\n\n\n12%",
+            "rating": "17",
+            "acs": "356",
+            "kills": "1.19",
+            "mortes": "188"
+        },
+        {
+            "jogador": "Akame\nDFM",
+            "agente": "33%\n\n\n\n33%\n\n\n\n33%",
+            "rating": "12",
+            "acs": "271",
+            "kills": "1.19",
+            "mortes": "231"
+        },
+        {
+            "jogador": "Neon\nLEV",
+            "agente": "44%\n\n\n\n26%\n\n\n\n26%\n\n+1",
+            "rating": "27",
+            "acs": "531",
+            "kills": "1.19",
+            "mortes": "214"
+        },
+        {
+            "jogador": "lovers rock\nBBL",
+            "agente": "62%\n\n\n\n38%",
+            "rating": "13",
+            "acs": "277",
+            "kills": "1.19",
+            "mortes": "235"
+        },
+        {
+            "jogador": "Spring\nWOL",
+            "agente": "83%\n\n\n\n17%",
+            "rating": "18",
+            "acs": "378",
+            "kills": "1.18",
+            "mortes": "232"
+        },
+        {
+            "jogador": "Avez\nKC",
+            "agente": "67%\n\n\n\n33%",
+            "rating": "12",
+            "acs": "270",
+            "kills": "1.17",
+            "mortes": "210"
+        },
+        {
+            "jogador": "aspas\nMIBR",
+            "agente": "89%\n\n\n\n11%",
+            "rating": "9",
+            "acs": "185",
+            "kills": "1.17",
+            "mortes": "236"
+        },
+        {
+            "jogador": "XuNa\nVL",
+            "agente": "45%\n\n\n\n45%\n\n\n\n9%",
+            "rating": "11",
+            "acs": "245",
+            "kills": "1.17",
+            "mortes": "212"
+        },
+        {
+            "jogador": "eKo\nZETA",
+            "agente": "30%\n\n\n\n30%\n\n\n\n20%\n\n+2",
+            "rating": "10",
+            "acs": "227",
+            "kills": "1.15",
+            "mortes": "215"
+        },
+        {
+            "jogador": "whzy\nBLG",
+            "agente": "53%\n\n\n\n20%\n\n\n\n13%\n\n+2",
+            "rating": "15",
+            "acs": "318",
+            "kills": "1.15",
+            "mortes": "237"
+        },
+        {
+            "jogador": "Meteor\nT1",
+            "agente": "56%\n\n\n\n44%",
+            "rating": "9",
+            "acs": "209",
+            "kills": "1.15",
+            "mortes": "236"
+        },
+        {
+            "jogador": "LewN\nKC",
+            "agente": "92%\n\n\n\n8%",
+            "rating": "12",
+            "acs": "270",
+            "kills": "1.15",
+            "mortes": "254"
+        },
+        {
+            "jogador": "N4RRATE\nKC",
+            "agente": "58%\n\n\n\n33%\n\n\n\n8%",
+            "rating": "12",
+            "acs": "270",
+            "kills": "1.15",
+            "mortes": "219"
+        },
+        {
+            "jogador": "Favian\nEF",
+            "agente": "40%\n\n\n\n20%\n\n\n\n20%\n\n+2",
+            "rating": "10",
+            "acs": "202",
+            "kills": "1.15",
+            "mortes": "246"
+        },
+        {
+            "jogador": "Xross\nNS",
+            "agente": "58%\n\n\n\n17%\n\n\n\n17%\n\n+1",
+            "rating": "12",
+            "acs": "245",
+            "kills": "1.15",
+            "mortes": "208"
+        },
+        {
+            "jogador": "Chronicle\nVIT",
+            "agente": "41%\n\n\n\n27%\n\n\n\n23%\n\n+1",
+            "rating": "22",
+            "acs": "448",
+            "kills": "1.14",
+            "mortes": "227"
+        },
+        {
+            "jogador": "Scales\nTYL",
+            "agente": "43%\n\n\n\n21%\n\n\n\n21%\n\n+2",
+            "rating": "14",
+            "acs": "296",
+            "kills": "1.14",
+            "mortes": "196"
+        },
+        {
+            "jogador": "K1ra\nAG",
+            "agente": "40%\n\n\n\n33%\n\n\n\n13%\n\n+2",
+            "rating": "15",
+            "acs": "312",
+            "kills": "1.14",
+            "mortes": "228"
+        },
+        {
+            "jogador": "trexx\nTL",
+            "agente": "55%\n\n\n\n27%\n\n\n\n9%\n\n+1",
+            "rating": "11",
+            "acs": "231",
+            "kills": "1.13",
+            "mortes": "209"
+        },
+        {
+            "jogador": "Derke\nVIT",
+            "agente": "45%\n\n\n\n27%\n\n\n\n23%\n\n+1",
+            "rating": "22",
+            "acs": "448",
+            "kills": "1.13",
+            "mortes": "244"
+        },
+        {
+            "jogador": "kamo\nTL",
+            "agente": "55%\n\n\n\n45%",
+            "rating": "11",
+            "acs": "231",
+            "kills": "1.13",
+            "mortes": "245"
+        },
+        {
+            "jogador": "SiuFatBB\nTYL",
+            "agente": "57%\n\n\n\n29%\n\n\n\n14%",
+            "rating": "14",
+            "acs": "296",
+            "kills": "1.12",
+            "mortes": "168"
+        },
+        {
+            "jogador": "RieNs\nTH",
+            "agente": "53%\n\n\n\n33%\n\n\n\n13%",
+            "rating": "15",
+            "acs": "294",
+            "kills": "1.12",
+            "mortes": "216"
+        },
+        {
+            "jogador": "skuba\nNRG",
+            "agente": "46%\n\n\n\n31%\n\n\n\n23%",
+            "rating": "13",
+            "acs": "296",
+            "kills": "1.12",
+            "mortes": "192"
+        },
+        {
+            "jogador": "keiko\nNRG",
+            "agente": "23%\n\n\n\n23%\n\n\n\n15%\n\n+3",
+            "rating": "13",
+            "acs": "296",
+            "kills": "1.12",
+            "mortes": "206"
+        },
+        {
+            "jogador": "f4ngeer\nAG",
+            "agente": "47%\n\n\n\n27%\n\n\n\n20%\n\n+1",
+            "rating": "15",
+            "acs": "312",
+            "kills": "1.12",
+            "mortes": "232"
+        },
+        {
+            "jogador": "spike\nLEV",
+            "agente": "81%\n\n\n\n19%",
+            "rating": "27",
+            "acs": "531",
+            "kills": "1.12",
+            "mortes": "238"
+        },
+        {
+            "jogador": "Loita\nBBL",
+            "agente": "85%\n\n\n\n15%",
+            "rating": "13",
+            "acs": "277",
+            "kills": "1.12",
+            "mortes": "196"
+        },
+        {
+            "jogador": "hiro\nNAVI",
+            "agente": "40%\n\n\n\n33%\n\n\n\n13%\n\n+2",
+            "rating": "15",
+            "acs": "328",
+            "kills": "1.12",
+            "mortes": "216"
+        },
+        {
+            "jogador": "Karon\nGEN",
+            "agente": "79%\n\n\n\n14%\n\n\n\n7%",
+            "rating": "14",
+            "acs": "312",
+            "kills": "1.12",
+            "mortes": "206"
+        },
+        {
+            "jogador": "cb\nNOVA",
+            "agente": "62%\n\n\n\n23%\n\n\n\n15%",
+            "rating": "13",
+            "acs": "283",
+            "kills": "1.12",
+            "mortes": "201"
+        },
+        {
+            "jogador": "Ezeir\nNOVA",
+            "agente": "62%\n\n\n\n23%\n\n\n\n15%",
+            "rating": "13",
+            "acs": "283",
+            "kills": "1.12",
+            "mortes": "202"
+        },
+        {
+            "jogador": "zekken\nMIBR",
+            "agente": "89%\n\n\n\n11%",
+            "rating": "9",
+            "acs": "185",
+            "kills": "1.11",
+            "mortes": "229"
+        },
+        {
+            "jogador": "Rb\nNS",
+            "agente": "50%\n\n\n\n25%\n\n\n\n17%\n\n+1",
+            "rating": "12",
+            "acs": "245",
+            "kills": "1.10",
+            "mortes": "210"
+        },
+        {
+            "jogador": "Cryocells\n100T",
+            "agente": "80%\n\n\n\n20%",
+            "rating": "10",
+            "acs": "225",
+            "kills": "1.10",
+            "mortes": "215"
+        },
+        {
+            "jogador": "Klaus\nVL",
+            "agente": "83%\n\n\n\n17%",
+            "rating": "6",
+            "acs": "130",
+            "kills": "1.10",
+            "mortes": "189"
+        },
+        {
+            "jogador": "Sato\nLEV",
+            "agente": "70%\n\n\n\n19%\n\n\n\n7%\n\n+1",
+            "rating": "27",
+            "acs": "531",
+            "kills": "1.10",
+            "mortes": "232"
+        },
+        {
+            "jogador": "BuZz\nT1",
+            "agente": "56%\n\n\n\n22%\n\n\n\n11%\n\n+1",
+            "rating": "9",
+            "acs": "209",
+            "kills": "1.09",
+            "mortes": "219"
+        },
+        {
+            "jogador": "Ruxic\nNAVI",
+            "agente": "80%\n\n\n\n7%\n\n\n\n7%\n\n+1",
+            "rating": "15",
+            "acs": "328",
+            "kills": "1.09",
+            "mortes": "216"
+        },
+        {
+            "jogador": "OXY\nC9",
+            "agente": "67%\n\n\n\n17%\n\n\n\n8%\n\n+1",
+            "rating": "12",
+            "acs": "257",
+            "kills": "1.09",
+            "mortes": "245"
+        },
+        {
+            "jogador": "blowz\nLEV",
+            "agente": "41%\n\n\n\n33%\n\n\n\n22%\n\n+1",
+            "rating": "27",
+            "acs": "531",
+            "kills": "1.09",
+            "mortes": "181"
+        },
+        {
+            "jogador": "Sayonara\nVIT",
+            "agente": "41%\n\n\n\n23%\n\n\n\n18%\n\n+2",
+            "rating": "22",
+            "acs": "448",
+            "kills": "1.09",
+            "mortes": "194"
+        },
+        {
+            "jogador": "bao\nEG",
+            "agente": "38%\n\n\n\n38%\n\n\n\n25%",
+            "rating": "8",
+            "acs": "156",
+            "kills": "1.09",
+            "mortes": "193"
+        },
+        {
+            "jogador": "nAts\nTL",
+            "agente": "67%\n\n\n\n33%",
+            "rating": "9",
+            "acs": "197",
+            "kills": "1.08",
+            "mortes": "211"
+        },
+        {
+            "jogador": "brawk\nNRG",
+            "agente": "85%\n\n\n\n8%\n\n\n\n8%",
+            "rating": "13",
+            "acs": "296",
+            "kills": "1.08",
+            "mortes": "202"
+        },
+        {
+            "jogador": "t3xture\nGEN",
+            "agente": "71%\n\n\n\n21%\n\n\n\n7%",
+            "rating": "14",
+            "acs": "312",
+            "kills": "1.08",
+            "mortes": "223"
+        },
+        {
+            "jogador": "trent\nG2",
+            "agente": "41%\n\n\n\n41%\n\n\n\n18%",
+            "rating": "17",
+            "acs": "363",
+            "kills": "1.08",
+            "mortes": "193"
+        },
+        {
+            "jogador": "iZu\nT1",
+            "agente": "56%\n\n\n\n33%\n\n\n\n11%",
+            "rating": "9",
+            "acs": "209",
+            "kills": "1.08",
+            "mortes": "227"
+        },
+        {
+            "jogador": "happywei\nXLG",
+            "agente": "39%\n\n\n\n32%\n\n\n\n29%",
+            "rating": "28",
+            "acs": "590",
+            "kills": "1.08",
+            "mortes": "212"
+        },
+        {
+            "jogador": "Erv\nTYL",
+            "agente": "57%\n\n\n\n21%\n\n\n\n21%",
+            "rating": "14",
+            "acs": "296",
+            "kills": "1.08",
+            "mortes": "176"
+        },
+        {
+            "jogador": "Cloud\nFNC",
+            "agente": "36%\n\n\n\n21%\n\n\n\n14%\n\n+3",
+            "rating": "14",
+            "acs": "315",
+            "kills": "1.07",
+            "mortes": "188"
+        },
+        {
+            "jogador": "Crewen\nBBL",
+            "agente": "77%\n\n\n\n15%\n\n\n\n8%",
+            "rating": "13",
+            "acs": "277",
+            "kills": "1.07",
+            "mortes": "204"
+        },
+        {
+            "jogador": "CHICHOO\nEDG",
+            "agente": "41%\n\n\n\n38%\n\n\n\n14%\n\n+1",
+            "rating": "29",
+            "acs": "621",
+            "kills": "1.07",
+            "mortes": "197"
+        },
+        {
+            "jogador": "Autumn\nGE",
+            "agente": "31%\n\n\n\n19%\n\n\n\n19%\n\n+4",
+            "rating": "16",
+            "acs": "350",
+            "kills": "1.06",
+            "mortes": "206"
+        },
+        {
+            "jogador": "dgzin\nEG",
+            "agente": "50%\n\n\n\n25%\n\n\n\n25%",
+            "rating": "8",
+            "acs": "156",
+            "kills": "1.06",
+            "mortes": "246"
+        },
+        {
+            "jogador": "dos9\nKC",
+            "agente": "92%\n\n\n\n8%",
+            "rating": "12",
+            "acs": "270",
+            "kills": "1.06",
+            "mortes": "191"
+        },
+        {
+            "jogador": "Raxcal\nGEN",
+            "agente": "43%\n\n\n\n29%\n\n\n\n21%\n\n+1",
+            "rating": "14",
+            "acs": "312",
+            "kills": "1.06",
+            "mortes": "201"
+        },
+        {
+            "jogador": "BABYBAY\nG2",
+            "agente": "47%\n\n\n\n41%\n\n\n\n12%",
+            "rating": "17",
+            "acs": "363",
+            "kills": "1.05",
+            "mortes": "203"
+        },
+        {
+            "jogador": "Kr1stal\nGE",
+            "agente": "38%\n\n\n\n19%\n\n\n\n19%\n\n+4",
+            "rating": "16",
+            "acs": "350",
+            "kills": "1.05",
+            "mortes": "183"
+        },
+        {
+            "jogador": "kiNgg\nLEV",
+            "agente": "30%\n\n\n\n26%\n\n\n\n19%\n\n+3",
+            "rating": "27",
+            "acs": "531",
+            "kills": "1.05",
+            "mortes": "181"
+        },
+        {
+            "jogador": "HYUNMIN\nKRX",
+            "agente": "90%\n\n\n\n10%",
+            "rating": "10",
+            "acs": "196",
+            "kills": "1.05",
+            "mortes": "220"
+        },
+        {
+            "jogador": "oonzmlp\nVL",
+            "agente": "36%\n\n\n\n27%\n\n\n\n9%\n\n+3",
+            "rating": "11",
+            "acs": "245",
+            "kills": "1.05",
+            "mortes": "195"
+        },
+        {
+            "jogador": "Jinggg\nPRX",
+            "agente": "50%\n\n\n\n23%\n\n\n\n14%\n\n+2",
+            "rating": "22",
+            "acs": "477",
+            "kills": "1.04",
+            "mortes": "211"
+        },
+        {
+            "jogador": "KovaQ\nFPX",
+            "agente": "76%\n\n\n\n12%\n\n\n\n12%",
+            "rating": "17",
+            "acs": "356",
+            "kills": "1.04",
+            "mortes": "196"
+        },
+        {
+            "jogador": "d4v41\nPRX",
+            "agente": "50%\n\n\n\n18%\n\n\n\n18%\n\n+2",
+            "rating": "22",
+            "acs": "477",
+            "kills": "1.04",
+            "mortes": "194"
+        },
+        {
+            "jogador": "Rarga\nXLG",
+            "agente": "36%\n\n\n\n18%\n\n\n\n14%\n\n+3",
+            "rating": "28",
+            "acs": "590",
+            "kills": "1.04",
+            "mortes": "214"
+        },
+        {
+            "jogador": "Shr1mp\nAG",
+            "agente": "47%\n\n\n\n33%\n\n\n\n20%",
+            "rating": "15",
+            "acs": "312",
+            "kills": "1.04",
+            "mortes": "186"
+        },
+        {
+            "jogador": "Timotino\n100T",
+            "agente": "80%\n\n\n\n20%",
+            "rating": "10",
+            "acs": "225",
+            "kills": "1.04",
+            "mortes": "228"
+        },
+        {
+            "jogador": "tkzin\nLOUD",
+            "agente": "60%\n\n\n\n20%\n\n\n\n20%",
+            "rating": "10",
+            "acs": "214",
+            "kills": "1.04",
+            "mortes": "240"
+        },
+        {
+            "jogador": "Setrod\nFPX",
+            "agente": "41%\n\n\n\n24%\n\n\n\n18%\n\n+2",
+            "rating": "17",
+            "acs": "356",
+            "kills": "1.04",
+            "mortes": "225"
+        },
+        {
+            "jogador": "LuoK1ng\nTE",
+            "agente": "82%\n\n\n\n18%",
+            "rating": "17",
+            "acs": "341",
+            "kills": "1.03",
+            "mortes": "185"
+        },
+        {
+            "jogador": "Knight\nBLG",
+            "agente": "33%\n\n\n\n27%\n\n\n\n20%\n\n+2",
+            "rating": "15",
+            "acs": "318",
+            "kills": "1.03",
+            "mortes": "213"
+        },
+        {
+            "jogador": "cortezia\nSEN",
+            "agente": "36%\n\n\n\n36%\n\n\n\n9%\n\n+2",
+            "rating": "11",
+            "acs": "245",
+            "kills": "1.03",
+            "mortes": "202"
+        },
+        {
+            "jogador": "sociablEE\nFUT",
+            "agente": "83%\n\n\n\n9%\n\n\n\n4%\n\n+1",
+            "rating": "23",
+            "acs": "497",
+            "kills": "1.03",
+            "mortes": "197"
+        },
+        {
+            "jogador": "Meiy\nDFM",
+            "agente": "58%\n\n\n\n25%\n\n\n\n17%",
+            "rating": "12",
+            "acs": "271",
+            "kills": "1.03",
+            "mortes": "225"
+        },
+        {
+            "jogador": "Deryeon\nWOL",
+            "agente": "78%\n\n\n\n11%\n\n\n\n6%\n\n+1",
+            "rating": "18",
+            "acs": "378",
+            "kills": "1.03",
+            "mortes": "195"
+        },
+        {
+            "jogador": "Coco\nTEC",
+            "agente": "58%\n\n\n\n32%\n\n\n\n5%\n\n+1",
+            "rating": "19",
+            "acs": "431",
+            "kills": "1.03",
+            "mortes": "186"
+        },
+        {
+            "jogador": "xavi8k\nGE",
+            "agente": "31%\n\n\n\n19%\n\n\n\n19%\n\n+3",
+            "rating": "16",
+            "acs": "350",
+            "kills": "1.02",
+            "mortes": "194"
+        },
+        {
+            "jogador": "heat\nKRÜ",
+            "agente": "44%\n\n\n\n33%\n\n\n\n22%",
+            "rating": "9",
+            "acs": "188",
+            "kills": "1.02",
+            "mortes": "212"
+        },
+        {
+            "jogador": "deLb\nTE",
+            "agente": "47%\n\n\n\n41%\n\n\n\n12%",
+            "rating": "17",
+            "acs": "341",
+            "kills": "1.02",
+            "mortes": "210"
+        },
+        {
+            "jogador": "DaviH\nLOUD",
+            "agente": "60%\n\n\n\n40%",
+            "rating": "10",
+            "acs": "214",
+            "kills": "1.02",
+            "mortes": "173"
+        },
+        {
+            "jogador": "ara\nGX",
+            "agente": "54%\n\n\n\n38%\n\n\n\n8%",
+            "rating": "13",
+            "acs": "269",
+            "kills": "1.02",
+            "mortes": "232"
+        },
+        {
+            "jogador": "Nicc\nDRG",
+            "agente": "64%\n\n\n\n23%\n\n\n\n14%",
+            "rating": "22",
+            "acs": "494",
+            "kills": "1.02",
+            "mortes": "185"
+        }
+    ]
+}
